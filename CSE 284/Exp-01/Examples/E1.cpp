@@ -1,5 +1,5 @@
 // A C++ program to define a class BOX and create objects of this class.
-// 1..2..3
+
 #include <iostream>
 using namespace std;
 
