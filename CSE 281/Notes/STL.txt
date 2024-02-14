@@ -1,0 +1,66 @@
+STL: Standard Template Library
+A powerful C++ Library
+"#include <bits/stdc++.h>": Non Standard Library, which includes all standard C++ library
+"#include <vector>
+#include <algorithm>
+#include <string>"
+
+Components of STL: 
+1. Containers: Contains Elements
+- Vector
+- Stack
+- Queue
+- Set
+- Pair
+- List
+- Map
+
+2. Iterators: Objects to traverse through the elements of containers
+- v.begin(), v.rbegin()
+- v.end(), v.rend()
+
+3. Algorithms: Operates on the containers
+- int find_2 = find(v.begin(), v.end(), 2) - v.begin();
+- int count_of_2 = count(v.begin(), v.end(), 2);
+- transform(v.begin(), v.upper(), v.begin(), operation)
+- min = *min_element(v.begin(), v.end()); max = *max_element(v.begin(), v.end());
+- auto lower = lower_bound(v.begin(), v.end(), 4) - v.begin(); // returns lower index of 4(in sorted data)
+- auto upper = upper_bound(v.begin(), v.end(), 10) - v.begin(); // returns upper index of 10
+- v.empty();
+- v.size();
+- size = unique(v.begin(), v.end()) - v.begin();
+
+Modifiers:
+- sort(s.begin(), s.end());
+- reverse(s.begin(), s.end());
+- s.insert(element); or s.inseret(index, element);
+- s.erase(v.begin()+ i) // specefic index; or s.erase(v.begin(), v.end()); // range
+- swap(x[1], x[3]);
+- v.push_back(x);
+- v.pop_back();
+- v.clear()
+- next_permutation(v.begin(), v.end());
+
+4. Functors: Functions that are applied on Containers
+
+Pair:
+pair <type1, type2> p;
+
+p = {p.first, p.second};
+p = make_pair(p.first, p.second);
+
+pair <int, int> p1, p2;
+
+p1 = {1, 2}, p2 = {2, 1};
+p1 < p2, because- p1.first < p2.first.
+compared 1st element 1st then being 1st element equal 2nd element is compared.
+
+Map:
+map <key, value> var;
+key = index type
+value = Value of map key
+var = variable name
+
+key and value comes in pair.
+var.first = key,
+var.second = value,

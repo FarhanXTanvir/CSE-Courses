@@ -1,0 +1,4 @@
+- Capital < Small Letter: A < a
+- a < b ... < z
+- A < B ... < Z 
+- prefix same, different length, lower length < upper: abc < abcD < abcd

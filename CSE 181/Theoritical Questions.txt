@@ -1,0 +1,94 @@
+1.  
+(i) Classify Programmming Language. Explain most common programming language translator.
+
+(ii) Why is C general purpose language? Explain the importance of C?
+
+(iii) Write down the important features of C Programmming. Explain briefly.
+
+(iv) Write down the basic difference between structured programming and object oriented programming. 
+    Define the terms: object, class, data abstraction and encapsulation, inheritance, polymorphism. 
+
+(v) Differentiate between structured programming and object oriented programming. 
+
+(vi) What are the special advantages of C++ over C?
+
+(vi) What is Machine Language? How does it differ from high level languages?
+
+(vii) What do you mean by dynamic binding? How is it useful in OPP?
+
+2. Distinguish between the following pairs:
+(i) Global and Local Variable
+(ii) Automated and Static Variable
+(iii) getchar and scanf functions
+(iv) %s and %c specifications for reading
+(V) %g and %f specifications for printing
+(vi) (*m)[5] and m[5]
+
+3. 
+(i) Write a general form of for statement, while statement and do while statement.
+(ii) Draw the flowchart of the selection process of switch statement. 
+Mention five rules for switch statement.
+(iii) Differentiate between/basic difference Entry and exit control loop with relevant examples.
+(iv) Explain about dangling else problem.
+
+4. 
+(i) Make a comparison between array and structures.
+(ii) Why do we need a terminating null character in array? Discuss with examples.
+
+5. 
+(i) Define pointer and variable. Mention some benefits of using pointer.
+(ii)How do variable names and symbolic names differ? Illustrate with examples.
+
+
+6. 
+(i) Explain different types of error in numerical computing.
+(ii) Show that at any stage the subequent error is proportional to the square of the previous error.
+
+7. What are trigraph characters? How are they useful?
+
+8. Differentiate between interpreter and compiler. 
+
+9. Describe the process of the call by reference. What is the purpose of using it in a program?
+
+10. Define friend and virtual function. Explain the significance of friend and virtual function.
+
+11. Differentiate between analog and digital computing. Explain the characteristics of numerical computing.
+
+12. Explain the geometrical interpretation of Newton's Raphson method.
+
+13. What is mouse? Distinguish between mechanical mouse and optical mouse. 
+    Write down the main benefits of mouse.
+
+14. Briefly describe about the construction and important features of dark disks.
+
+15. Briefly explain - how does a CD-ROM drive read data from surface of a compact disk?
+Why CD ROM drives are slow compared to hard disk drives?
+
+16. Describe the working procedure of floppy disks.
+
+17. Define operating system and mention its function. Explain single user/multitasking operating system.
+
+18. Briefly describe the important features of Hard-Disks.
+
+19. Differentiate between CD-ROM and DVD-ROM
+
+20. Write short note on:
+I. Master circuit board of computer
+II. Flash Memory
+III. ROM
+IV. RAM
+V. Main frame computer
+VI. Super computer
+VII. Workstations
+VIII. Real-time operating system
+IX. Magnetic Ink Character Reader (MICR)
+
+21. Describe about the four basic number systems.
+(i) Hexa 129A.B86 to decimal
+(ii) Decimal 653.625 to binary
+(iii) Binary 11100.1011011011 to Hexa
+(iv) Hexa 7385.88 to decimal
+(V) Decimal 109.7825 to binary
+(vii) Binary 101101101110.1000110 to Hexa
+
+

@@ -1,0 +1,9 @@
+map <key, value> var;
+key = index type
+value = Value of map key
+var = variable name
+
+key and value comes in pair.
+var.first = key,
+var.second = value,
+

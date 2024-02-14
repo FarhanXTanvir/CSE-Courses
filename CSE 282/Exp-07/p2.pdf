@@ -1,0 +1,89 @@
+/* Problem Statement-02: A C++ program for the following Graphs to find the shortest distance and path from
+an arbitrary source to an arbitrary destination node.
+Code:
+*/
+#include <bits/stdc++.h>
+using namespace std;
+
+vector<int> adj[100];
+int dis[100], visited[100], parent[100];
+
+void Bfs(int source) {
+    queue<int> q;
+    dis[source] = 0;
+    visited[source] = 1;
+    q.push(source);
+
+    while (!q.empty()) {
+        int node = q.front(); q.pop();
+
+        for (int i = 0; i < adj[node].size(); ++i)
+        {
+            int nxt_node = adj[node][i];
+
+            if (visited[nxt_node]) continue;
+
+            dis[nxt_node] = 1 + dis[node];
+            visited[nxt_node] = 1;
+            parent[nxt_node] = node; // store the parent node for path reconstruction
+            q.push(nxt_node);
+        }
+    }
+}
+
+vector <int> getPath(int source, int destination)
+{
+    vector <int> path;
+    int node = destination;
+    while (node != source) {
+        path.push_back(node);
+        node = parent[node];
+    }
+    path.push_back(source);
+    reverse(path.begin(), path.end());
+    return path;
+}
+
+int main() {
+    int n, m;
+    cout << "Enter the number of nodes: ";
+    cin >> n;
+    cout << "Enter the number of edges: ";
+    cin >> m;
+
+    cout << "Enter the edge connections:\n";
+    for (int i = 0; i < m; ++i) {
+        int u, v;
+        cin >> u >> v;
+        adj[u].push_back(v);
+        adj[v].push_back(u);
+    }
+
+    int source, destination;
+    cout << "Enter the source node: ";
+    cin >> source;
+    cout << "Enter the destination node: ";
+    cin >> destination;
+
+    memset(dis, -1, sizeof(dis));
+    memset(visited, 0, sizeof(visited));
+    memset(parent, -1, sizeof(parent));
+
+    Bfs(source);
+
+    if (dis[destination] != -1) {
+        cout << "Shortest distance from node " << source << " to node " << destination << ": " << dis[destination] << endl;
+        cout << "Shortest path: ";
+        vector<int> path = getPath(source, destination);
+        for (int i = 0; i < path.size(); ++i) {
+            cout << path[i];
+            if (i != path.size() - 1) cout << " -> ";
+        }
+        cout << endl;
+    } else {
+        cout << "No path exists from node " << source << " to node " << destination << endl;
+    }
+
+    return 0;
+}
+

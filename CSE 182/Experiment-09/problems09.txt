@@ -1,0 +1,10 @@
+1. Write a C++ program to add, subtract, multiply and divide two integers
+using the following types of user-defined functions -
+• No Argument Passed and No return value
+• No Argument Passed but return a value
+• Argument Passed but no return value
+• Argument passed and returns a value
+2. Write a C++ program to find the diameter, circumference, and area of a circle using functions.
+3. Write a C++ program to get the largest element of an array using the function.
+4. Write a C++ program to find the reverse of an array using the function.
+5. Write a C++ program to find the sum of two one-dimensional arrays using the function.

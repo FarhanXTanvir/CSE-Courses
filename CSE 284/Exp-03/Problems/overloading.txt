@@ -1,0 +1,19 @@
+Function overloading in C++ depends on the following key aspects:
+
+Function Name:
+Overloaded functions must have the same name.
+
+    Parameter List:
+    The parameter lists of the overloaded functions must differ in at least one of the following ways:
+    -Number of parameters
+    -Data types of parameters
+    -Order of parameters
+
+    Return Type:
+    The return type alone is not considered for overloading. Overloaded functions can have different return types.
+
+Scope:
+Overloaded functions must be declared within the same scope.
+
+Namespace:
+Overloaded functions can be part of the same or different namespaces.

@@ -1,0 +1,22 @@
+Math: 
+- pow(x, y): returns the value of x raised to the power of y. // a^b
+- sqrt(x): returns the square root of x. 
+- exp(x), exp2(x) // e^x,  2^x
+- log(x), log10(x), log2(x) // e based, 10 based, 2 based
+- abs(x), abs(a-b): returns the absolute value of x 
+- min = min(a, b), max = max(a, b)
+- floor(x): returns the largest integer value that is less than or equal to x.
+- ceil(x): returns the smallest integer value that is greater than or equal to x.
+- sin(x): returns the sine of x (where x is in radians).
+- cos(x): returns the cosine of x (where x is in radians).
+- tan(x): returns the tangent of x (where x is in radians).
+- asin(x): returns the arcsine of x (i.e., the angle whose sine is x).
+- acos(x): returns the arccosine of x (i.e., the angle whose cosine is x).
+- atan(x): returns the arctangent of x (i.e., the angle whose tangent is x).
+- atan2(y, x): returns the arctangent of y/x (i.e., the angle between the x-axis and the point (x, y)).
+
+String:
+- toupper(x), tolower(x), isupper(x), islower(x), isspace(x), to_string(x), stoi(x)
+- s.substr(starting, length),  s.erase(remove(s.begin(), s.end(), char), s.end());
+- string supports all function and algorithms of vector
+- copy(starting_iterator, length, new.begin());

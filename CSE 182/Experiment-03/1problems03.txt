@@ -1,0 +1,13 @@
+1.	Write a C program to find maximum between three numbers.
+2.	Write a C program to check whether a number is negative, positive or zero.
+3.	Write a C program to check whether a number is divisible by 5 and 11 or not.
+4.	Write a C program to check whether a year is leap year or not.
+5.	Write a C program to input all sides of a triangle and check whether triangle is valid or not.
+6.	Write a C program to check whether the triangle is equilateral, isosceles or scalene triangle.
+7.	Write a C program to find all roots of a quadratic equation.
+8.	Write a C program to input electricity unit charges and calculate total elec-tricity bill according to the given condition:
+    For first 50 units Rs. 0.50/unit
+    For next 100 units Rs. 0.75/unit
+    For next 100 units Rs. 1.20/unit
+    For unit above 250 Rs. 1.50/unit
+An additional surcharge of 20% is added to the bill.

@@ -1,0 +1,8 @@
+1.	Write a C program to enter length and breadth of a rectangle and find its area and perimeter.
+2.	Write a C program to enter radius of a circle and find its diameter, circum­ference and area.
+3.	Write a C program to enter length in centimeter and convert it into meter and kilometer.
+4.	Write a C program to enter temperature in °Celsius and convert it into °Fahrenheit.
+5.	Write a C program to convert days into years, months, weeks and days.
+6.	Write a C program to find maximum between three numbers using condi­tional/ternary operator.
+7.	Write a C program to check whether a number is even or odd using condi­tional/ternary operator.
+8.	Write a C program to check whether year is leap year or not using condi­tional/ternary operator.

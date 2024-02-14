@@ -1,0 +1,7 @@
+Create class named "Trapezium" with three data members- base1, base2, height and a function
+ to calculate the area of trapezium. The class has three constructors which are:
+1. Having no paramters - values of both base1, base2 and height are assigned zero.
+2. Having three numbers as parameters - the three numbers are assigned as base1, base2 and height
+3. Having 2 numbers as parameters - Both bases and heights are assigned those numbers.
+Now create objects of the trapezium class having none, three and two parameters 
+and print their areas.
